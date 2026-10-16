@@ -4,7 +4,6 @@ import { FadeLoader } from "react-spinners";
 import TableRow from "./TableRow";
 
 function TableCoin({ coins, isLoading, setChart }) {
-  console.log(coins);
   return (
     <div className={styles.container}>
       {isLoading ? (
